@@ -10,15 +10,365 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
+    <!-- navbarsection -->
+    <div class="b-example-divider"></div>
 
+    <header class="p-3 bg-dark text-white">
+      <div class="container">
+        <div
+          class="
+            d-flex
+            flex-wrap
+            align-items-center
+            justify-content-center justify-content-lg-start
+          "
+        >
+          <a
+            href="/"
+            class="
+              d-flex
+              align-items-center
+              mb-2 mb-lg-0
+              text-white text-decoration-none
+            "
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
 
+          <ul
+            class="
+              nav
+              col-12 col-lg-auto
+              me-lg-auto
+              mb-2
+              justify-content-center
+              mb-md-0
+            "
+          >
+            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
 
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input
+              type="search"
+              class="form-control form-control-dark"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
 
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    
+    <!-- end -->
+    <div
+      class="bg-dark text-secondary px-4 py-5 text-center bg-image"
+      style="
+        background: url(./images/maxim-hopman-IayKLkmz6g0-unsplash.jpg)
+          no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-attachment: fixed;
+      "
+    >
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4 text-white">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button
+              type="button"
+              class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
+            >
+              Custom button
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="b-example-divider mb-0"></div>
+
+    <!-- feature -->
+    <section class="container">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Features</h1>
+     </div>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="
+                card card-cover
+                h-100
+                overflow-hidden
+                text-white
+                bg-dark
+                rounded-5
+                shadow-lg
+              "
+              style="
+                background-image: url(./images/sora-sagano-WFSap6CIXuw-unsplash.jpg);
+                background-size: cover;
+              "
+            >
+              <div
+                class="
+                  d-flex
+                  flex-column
+                  h-100
+                  p-5
+                  pb-3
+                  text-white text-shadow-1
+                "
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Short title, long jacket
+                </h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/maxim-hopman-IayKLkmz6g0-unsplash.jpg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Earth</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>3d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="
+                card card-cover
+                h-100
+                overflow-hidden
+                text-white
+                bg-dark
+                rounded-5
+                shadow-lg
+              "
+              style="
+                background-image: url(./images/shiwa-id-Uae7ouMw91A-unsplash.jpg);
+                background-size: cover;
+              "
+            >
+              <div
+                class="
+                  d-flex
+                  flex-column
+                  h-100
+                  p-5
+                  pb-3
+                  text-white text-shadow-1
+                "
+              >
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Much longer title that wraps to multiple lines
+                </h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/fabian-albert-ePJUCF48vgo-unsplash.jpg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>Pakistan</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>4d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="
+                card card-cover
+                h-100
+                overflow-hidden
+                text-white
+                bg-dark
+                rounded-5
+                shadow-lg
+              "
+              style="
+                background-image: url(./images/fabian-albert-ePJUCF48vgo-unsplash.jpg);
+                background-size: cover;
+              "
+            >
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  Another longer title belongs here
+                </h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <img
+                      src="./images/sora-sagano-WFSap6CIXuw-unsplash.jpg"
+                      alt="Bootstrap"
+                      width="32"
+                      height="32"
+                      class="rounded-circle border border-white"
+                    />
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#geo-fill" />
+                    </svg>
+                    <small>California</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                      <use xlink:href="#calendar3" />
+                    </svg>
+                    <small>5d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="b-example-divider"></div>
+
+    <section class="container">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Pricing</h1>
+        <p class="fs-5 text-muted">
+          Quickly build an effective pricing table for your potential customers
+          with this Bootstrap example. It’s built with default Bootstrap
+          components and utilities with little customization.
+        </p>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Free</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $0<small class="text-muted fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary"
+              >
+                Sign up for free
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $15<small class="text-muted fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 users included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Get started
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $29<small class="text-muted fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 users included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
